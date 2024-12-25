@@ -19,7 +19,9 @@ if(option_input == 1):
 elif(option_input == 2):
     print(user_string.lower())
 elif(option_input == 3):
-    print(user_string)
+    start = int(input("Enter start index: "))
+    end = int(input("Enter end index: "))
+    print(user_string[start:end])
 elif(option_input == 4):
     print(len(user_string))
 elif(option_input == 5):
